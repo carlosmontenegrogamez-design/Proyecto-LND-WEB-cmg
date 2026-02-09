@@ -1,0 +1,360 @@
+/* =============== RESET =============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif
+}
+
+/* =============== RESET =============== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* =============== HEADER =============== */
+#header-principal {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: beige;
+  z-index: 1000;
+  border-bottom: 1px solid #ddd;
+}
+
+/* ---------- BARRA SUPERIOR ---------- */
+#barra-superior {
+  width: 100%;
+  height: 70px;
+  padding: 10px 20px;
+}
+
+/* LOGO */
+.logo {
+  float: left;
+}
+
+.logo img {
+  height: 76px;
+}
+
+/* ===== BUSCADOR (AJUSTADO) ===== */
+.buscador {
+    float: left;
+    width: 45%;           /* antes 55% */
+    margin-top: 12px;
+}
+
+.buscador input {
+    float: left;
+    width: 65%;           /* antes 75% */
+    padding: 10px;        /* un poco más fino */
+    font-size: 15px;
+    border: none;
+    outline: none;
+    border-radius: 5px 0 0 5px;
+}
+
+.buscador button {
+    float: left;
+    width: 15%;           /* compensamos */
+    padding: 10px;
+    font-size: 15px;
+    background-color: orange;
+    border: none;
+    color: black;
+    cursor: pointer;
+    border-radius: 0 5px 5px 0;
+}
+
+.buscador button:hover {
+    background-color: #ff9900;
+}
+
+/* USUARIO */
+.usuario {
+  float: right;
+  margin-top: 18px;
+}
+
+.usuario a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.usuario a:hover {
+  color: #ff4747;
+}
+
+/* ---------- MENU CATEGORÍAS ---------- */
+#menu-categorias {
+  background: #f5f5f5;
+  height: 40px;
+}
+
+#menu-categorias ul {
+  list-style: none;
+  padding-left: 20px;
+}
+
+#menu-categorias ul li {
+  float: left;
+  line-height: 40px;
+  margin-right: 25px;
+  font-size: 14px;
+}
+
+#menu-categorias ul li a {
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+#menu-categorias ul li a:hover {
+  color: #ff4747;
+}
+
+/* CATEGORÍAS */
+.categorias {
+  font-weight: bold;
+  cursor: pointer;
+}
+
+/* CLEAR */
+.clear {
+  clear: both;
+}
+
+/* ================= VIDEO DE FONDO ================= */
+
+.video-fondo {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    overflow: hidden;
+}
+
+/* Video ocupando toda la sección */
+.video-fondo video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+/* Texto encima del vídeo */
+.texto-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+}
+
+/* Título */
+.texto-video h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+/* Texto */
+.texto-video p {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+/* Botón */
+.texto-video .boton {
+    padding: 10px 20px;
+    background-color: orange;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    border: none;
+}
+
+/* Hover botón */
+.texto-video .boton:hover {
+    background-color: transparent;
+    color: orange;
+    border: 2px solid orange;
+}
+
+
+/* ================= CONTENIDO PRINCIPAL ================= */
+
+.contenido {
+    width: 90%;
+    margin: 40px auto;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+.titulo {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 30px;
+    color:black;
+}
+
+/* ================= CONTENEDOR DE PRODUCTOS ================= */
+
+.productos {
+    width: 100%;
+}
+
+/* ================= TARJETA PRODUCTO ================= */
+
+.producto {
+    width: 220px;
+    float: left;                /* USO DE FLOAT */
+    margin: 15px;
+    padding: 15px;
+    background-color: #ffffff;
+    border: 1px solid #0c08f5;
+    border-radius: 6px;
+    text-align: center;
+    position: relative;         /* USO DE POSITION */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* HOVER PRODUCTO */
+.producto:hover {
+    transform: translateY(-6px);
+    box-shadow: 0 6px 16px rgba(0,0,0,0.15);
+}
+
+/* ================= IMAGEN ================= */
+
+.producto img {
+    width: 100%;
+    height: 160px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+/* HOVER IMAGEN */
+.producto:hover img {
+    transform: scale(1.08);
+}
+
+/* ================= TEXTO ================= */
+
+.producto h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+    height: 38px;
+    overflow: hidden;
+}
+
+.producto p {
+    font-size: 15px;
+    color: #ff4747;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+/* ================= BOTÓN ================= */
+
+.boton {
+    display: inline-block;
+    padding: 8px 14px;
+    background-color: #ff6a00;
+    color: white;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+}
+
+/* HOVER BOTÓN (SIN FONDO) */
+.boton:hover {
+    background-color: transparent;
+    color: #ff6a00;
+    border: 2px solid #ff6a00;
+}
+
+/* ================= LIMPIADOR FLOAT ================= */
+
+.clear {
+    clear: both;
+}
+
+
+/* ===== REDES SOCIALES ===== */
+/* ================= FOOTER ================= */
+
+footer {
+    width: 100%;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    padding: 30px 60px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden; /* para limpiar floats */
+}
+
+/* Textos del footer */
+footer p {
+    margin: 6px 0;
+    font-size: 14px;
+    color: #cccccc;
+}
+
+/* ================= REDES SOCIALES ================= */
+
+.redes-sociales {
+    float: right;            /* A LA DERECHA */
+    margin-top: -40px;
+}
+
+/* enlaces */
+.redes-sociales a {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+/* imágenes de redes */
+.redes-sociales img {
+    width: 40px;             /* MÁS GRANDES */
+    height: 40px;
+    border-radius: 50%;
+    background-color: #ffffff;
+    padding: 6px;
+    transition: all 0.3s ease;
+}
+
+/* HOVER REDES */
+.redes-sociales img:hover {
+    background-color: #ff6a00;
+    transform: scale(1.15);
+}
+
+/* ================= LÍNEA DECORATIVA SUPERIOR ================= */
+
+footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 4px;
+    background: linear-gradient(to right, #ff6a00, #ffb347);
+}
+
