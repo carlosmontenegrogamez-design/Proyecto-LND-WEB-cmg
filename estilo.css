@@ -358,3 +358,94 @@ footer::before {
     background: linear-gradient(to right, #ff6a00, #ffb347);
 }
 
+/* ================= CONTACTO ================= */
+
+.header-contacto {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.contenido-contacto {
+    width: 90%;
+    margin: 50px auto;
+}
+
+/* FORMULARIO */
+.formulario-contacto {
+    width: 48%;
+    float: left;
+}
+
+.formulario-contacto h2 {
+    margin-bottom: 20px;
+}
+
+.formulario-contacto form {
+    background: #f5f5f5;
+    padding: 25px;
+    border-radius: 10px;
+}
+
+.formulario-contacto label {
+    display: block;
+    margin-top: 15px;
+    font-weight: bold;
+}
+
+.formulario-contacto input,
+.formulario-contacto select {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.opciones {
+    margin-top: 10px;
+}
+
+/* BOTÓN */
+.boton {
+    margin-top: 20px;
+    padding: 12px;
+    width: 100%;
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.boton:hover {
+    background: transparent;
+    color: #ff6600;
+    border: 2px solid #ff6600;
+}
+
+/* MAPA */
+.mapa-contacto {
+    width: 48%;
+    float: right;
+}
+
+.mapa-contacto h2 {
+    margin-bottom: 20px;
+}
+
+/* FOOTER */
+.footer-contacto {
+    background: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+}
+
+/* LIMPIADOR */
+.clear {
+    clear: both;
+}
