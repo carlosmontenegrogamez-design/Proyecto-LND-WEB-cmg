@@ -33,6 +33,9 @@ body {
 
 /* ---------- BARRA SUPERIOR ---------- */
 #barra-superior {
+display: flex; /*--FLEX*/
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   height: 70px;
   padding: 10px 20px;
@@ -104,6 +107,8 @@ body {
 }
 
 #menu-categorias ul {
+    display: flex; /*--FLEX*/
+    align-items: center;
   list-style: none;
   padding-left: 20px;
 }
@@ -215,6 +220,8 @@ body {
 /* ================= CONTENEDOR DE PRODUCTOS ================= */
 
 .productos {
+    display: flex; /*--FLEX*/
+     flex-wrap: wrap;
     width: 100%;
 }
 
@@ -301,6 +308,9 @@ body {
 /* ================= FOOTER ================= */
 
 footer {
+    display: flex; /*--FLEX*/
+    justify-content: space-between;
+    align-items: center;
     width: 100%;
     background-color: #1e1e1e;
     color: #ffffff;
@@ -368,6 +378,9 @@ footer::before {
 }
 
 .contenido-contacto {
+    display: flex; /*--FLEX*/
+    justify-content: space-between;
+  flex-wrap: wrap;
     width: 90%;
     margin: 50px auto;
 }
@@ -411,7 +424,7 @@ footer::before {
 .boton {
     margin-top: 20px;
     padding: 12px;
-    width: 100%;
+    width: 65%;
     background: #ff6600;
     color: white;
     border: none;
