@@ -476,4 +476,22 @@ footer::before {
 }
 
 
+/* ================= PRECIOS para la seccion de OFERTAS ================= */
+
+.precio {
+    margin: 10px 0;
+}
+
+.precio-antiguo {
+    text-decoration: line-through;
+    color: #888;
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.precio-nuevo {
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+}
 
