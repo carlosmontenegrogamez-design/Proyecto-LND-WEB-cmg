@@ -9,16 +9,6 @@ body {
   font-family: sans-serif
 }
 
-/* =============== RESET =============== */
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
-body {
-  font-family: Arial, Helvetica, sans-serif;
-}
 
 /* =============== HEADER =============== */
 #header-principal {
@@ -288,6 +278,7 @@ display: flex; /*--FLEX*/
     border-radius: 4px;
     font-size: 14px;
     transition: all 0.3s ease;
+    text-align: center;
 }
 
 /* HOVER BOTÓN (SIN FONDO) */
@@ -295,6 +286,7 @@ display: flex; /*--FLEX*/
     background-color: transparent;
     color: #ff6a00;
     border: 2px solid #ff6a00;
+    text-align: center;
 }
 
 /* ================= LIMPIADOR FLOAT ================= */
@@ -303,8 +295,6 @@ display: flex; /*--FLEX*/
     clear: both;
 }
 
-
-/* ===== REDES SOCIALES ===== */
 /* ================= FOOTER ================= */
 
 footer {
@@ -318,6 +308,7 @@ footer {
     box-sizing: border-box;
     position: relative;
     overflow: hidden; /* para limpiar los floats */
+    text-align: center;
 }
 
 /* Textos del footer */
@@ -325,6 +316,7 @@ footer p {
     margin: 6px 0;
     font-size: 14px;
     color: #cccccc;
+    text-align: center;
 }
 
 /* ================= REDES SOCIALES ================= */
@@ -371,10 +363,10 @@ footer::before {
 /* ================= CONTACTO ================= */
 
 .header-contacto {
-    background: #111;
-    color: white;
+    background: antiquewhite;
+    color: black;
     text-align: center;
-    padding: 40px 0;
+    padding: 65px 0;
 }
 
 .contenido-contacto {
@@ -494,4 +486,396 @@ footer::before {
     font-weight: bold;
     font-size: 18px;
 }
+
+
+/* ============== PARA INICIAR SESIÓN ============== */
+/* ================= HEADER  LOGIN ================= */
+
+.header-login {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 25px 0;
+}
+
+.header-login h1 {
+    margin: 0;
+    font-size: 28px;
+}
+
+/* ================= CONTENIDO LOGIN ================= */
+
+.contenido-login {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+}
+
+/* ================= CAJA LOGIN ================= */
+
+.formulario-login {
+    background: white;
+    padding: 40px;
+    width: 380px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+}
+
+.formulario-login h2 {
+    text-align: center;
+    margin-bottom: 25px;
+}
+
+/* ================= CAMPOS LOGIN================= */
+
+.formulario-login label {
+    display: block;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.formulario-login input[type="email"],
+.formulario-login input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 6px;
+    border-radius: 6px;
+    border: 1px solid #ccc;
+    transition: 0.3s;
+}
+
+/* Efecto al hacer clic */
+.formulario-login input:focus {
+    border-color: #00c3ff;
+    outline: none;
+    box-shadow: 0 0 5px rgba(0,195,255,0.4);
+}
+
+/* Checkbox */
+.opciones {
+    margin-top: 12px;
+    font-size: 14px;
+}
+
+/* ================= BOTÓN LOGIN ================= */
+
+.formulario-login button {
+    width: 100%;
+    padding: 12px;
+    margin-top: 20px;
+    background-color: #00c3ff;
+    border: none;
+    color: white;
+    font-weight: bold;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.formulario-login button:hover {
+    background-color: #009acb;
+}
+
+/* Texto registro */
+.registro {
+    text-align: center;
+    margin-top: 15px;
+}
+
+.registro a {
+    color: #00c3ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.registro a:hover {
+    text-decoration: underline;
+}
+
+/* ================= FOOTER login ================= */
+
+.footer-login {
+    background-color: #111;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-login .boton {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 8px 15px;
+    background-color: #00c3ff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.footer-login .boton:hover {
+    background-color: #009acb;
+}
+
+
+
+
+/* ================= DETALLE PRODUCTO -ver producto- mas grande y detallado al clickar-================= */
+
+.detalle-producto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 60px;
+    flex-wrap: wrap;
+}
+
+.imagen-producto img {
+    width: 350px;
+}
+
+.info-producto {
+    max-width: 400px;
+}
+
+.info-producto h2 {
+    font-size: 28px;
+}
+
+.precio {
+    font-size: 22px;
+    color: red;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.descripcion {
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+/*=====CARRITO DE  LA COMPRA=====*/
+
+.header-carrito {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-carrito a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.carrito-container {
+    width: 70%;
+    margin: 50px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    color: #111;
+}
+
+.producto-carrito {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 15px;
+    color: #111;
+}
+
+.producto-carrito img {
+    width: 80px;
+    color: #111;
+}
+
+.info {
+    flex: 1;
+    margin-left: 20px;
+    color: #111;
+}
+
+.eliminar {
+    background-color: red;
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.eliminar:hover {
+    background-color: darkred;
+}
+
+.total {
+    text-align: right;
+    margin-top: 30px;
+}
+
+.comprar {
+    background-color: green;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.comprar:hover {
+    background-color: darkgreen;
+}
+
+/* ================= CARRUSEL ================= */
+
+.carrusel {
+    width: 60%;
+    margin: 25px auto;
+    overflow: hidden;
+    text-align: center;
+}
+
+.carrusel input {
+    display: none;
+}
+
+.slides {
+    display: flex;
+    width: 300%;
+    transition: 0.5s;
+}
+
+.slide {
+    width: 100%;
+}
+
+.slide img {
+    width: 100%;
+    height: 220px;   /* MÁS PEQUEÑO */
+    object-fit: contain;
+}
+
+/* Movimiento */
+#slide1:checked ~ .slides { margin-left: 0; }
+#slide2:checked ~ .slides { margin-left: -100%; }
+#slide3:checked ~ .slides { margin-left: -200%; }
+
+
+
+/* ================= FLECHAS CARRUSEL ================= */
+
+.carrusel {
+    position: relative;
+}
+
+/* Ocultar todos los controles */
+.control {
+    display: none;
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Mostrar solo el control activo */
+#slide1:checked ~ .flechas .s1,
+#slide2:checked ~ .flechas .s2,
+#slide3:checked ~ .flechas .s3 {
+    display: block;
+}
+
+/* Estilo flechas */
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    font-size: 30px;
+    color: #111;
+    font-weight: bold;
+    padding: 10px;
+    user-select: none;
+    background: rgba(255,255,255,0.7);
+    border-radius: 50%;
+    transition: 0.3s;
+}
+
+.prev:hover, .next:hover {
+    background: rgba(0,0,0,0.7);
+    color: white;
+}
+
+/* Posiciones */
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* ================= PORTFOLIO ================= */
+
+.portfolio {
+    padding: 25px;
+    text-align: center;
+}
+
+.portfolio h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
+.destacados {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 12px;
+}
+
+.tarjetas {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    font-size: 14px;
+}
+
+.tarjetas img {
+    width: 100%;
+    height: 120px; /* MÁS PEQUEÑO */
+    object-fit: contain;
+}
+
+/* ================= MEDIA QUERY 1 (PAREA LA  TABLET) ================= */
+
+@media (max-width: 900px) {
+
+    .portfolio {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .slide img {
+        height: 180px;
+    }
+}
+
+/* ================= MEDIA QUERY 2 (PARA EL  MÓVIL) ================= */
+
+@media (max-width: 500px) {
+
+    .portfolio {
+        grid-template-columns: 1fr;
+    }
+
+    .slide img {
+        height: 140px;
+    }
+
+    header {
+        font-size: 16px;
+    }
+}
+
 
