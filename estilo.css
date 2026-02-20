@@ -431,7 +431,7 @@ footer::before {
     border: 2px solid #ff6600;
 }
 
-/* ================= MAPA ================= */
+/* ================= MAPA de GOOGLE================= */
 
 .mapa-contacto {
     width: 48%;
@@ -527,7 +527,7 @@ footer::before {
     margin-bottom: 25px;
 }
 
-/* ================= CAMPOS LOGIN================= */
+/* ================= CAMPOS OBLIGATORIOS PARA EL LOGIN================= */
 
 .formulario-login label {
     display: block;
@@ -558,7 +558,7 @@ footer::before {
     font-size: 14px;
 }
 
-/* ================= BOTÓN LOGIN ================= */
+/* ================= BOTÓN PARA EL LOGIN ================= */
 
 .formulario-login button {
     width: 100%;
@@ -577,7 +577,7 @@ footer::before {
     background-color: #009acb;
 }
 
-/* Texto registro */
+/* Texto para el registro */
 .registro {
     text-align: center;
     margin-top: 15px;
@@ -593,7 +593,7 @@ footer::before {
     text-decoration: underline;
 }
 
-/* ================= FOOTER login ================= */
+/* ================= FOOTER algo más simple para el login ================= */
 
 .footer-login {
     background-color: #111;
@@ -619,7 +619,7 @@ footer::before {
 
 
 
-/* ================= DETALLE PRODUCTO -ver producto- mas grande y detallado al clickar-================= */
+/* ================= DETALLE PRODUCTO para -ver producto- mas grande y detallado al clickar-================= */
 
 .detalle-producto {
     display: flex;
@@ -731,7 +731,7 @@ footer::before {
     background-color: darkgreen;
 }
 
-/* ================= CARRUSEL ================= */
+/* ================= este es el ESTILO pars el CARRUSEL con FLECHAS================= */
 
 .carrusel {
     width: 60%;
@@ -773,7 +773,7 @@ footer::before {
     position: relative;
 }
 
-/* Ocultar todos los controles */
+/* esto es para Ocultar todos los controles */
 .control {
     display: none;
     position: absolute;
