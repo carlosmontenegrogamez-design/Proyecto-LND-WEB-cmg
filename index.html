@@ -80,6 +80,12 @@
 <!-- ================= CARRUSEL ================= -->
 <section class="carrusel">
   <h2> Desliza para ver los productos destacados</h2>
+  
+  <!-- 
+    Los radio buttons permiten cambiar entre diapositivas.
+    Todos tienen el mismo name para que solo uno pueda estar activo a la vez.
+    El atributo "checked" hace que la primera diapositiva se muestre por defecto.
+    -->
 
     <input type="radio" name="slider" id="slide1" checked>
     <input type="radio" name="slider" id="slide2">
@@ -87,41 +93,46 @@
 
     <div class="slides">
         <div class="slide">
-            <img src="images/tecnologia/Captura de pantalla 2026-02-16 201500.png" alt="Producto 1">
+            <img src="images/tecnologia/Captura de pantalla 2026-02-16 201500.png" alt=""><h4> ̶ ̶7̶3̶,̶9̶5̶€̶  // 45,65€</h4>
         </div>
 
         <div class="slide">
-            <img src="images/tecnologia/Captura de pantalla 2026-02-16 201557.png" alt="Producto 2">
+            <img src="images/tecnologia/Captura de pantalla 2026-02-16 201557.png" alt=""><h4>4̶0̶,̶9̶9̶€̶  //30,99€</h4>
         </div>
 
         <div class="slide">
-            <img src="images/tecnologia/Captura de pantalla 2026-02-16 201535.png" alt="Producto 3">
+            <img src="images/tecnologia/Captura de pantalla 2026-02-16 201535.png" alt=""><h4> ̶5̶0̶,̶4̶4̶€̶ // 28,99€</h4>
         </div>
     </div>
+    
 
     <!-- FLECHAS -->
+ <!-- 
+    Las flechas están hechas con etiquetas <label>.
+    Cada label tiene el atributo "for" que activa un radio concreto,
+    Así conseguimos que al pulsar la flecha cambie de diapositiva. -->
+
     <div class="flechas">
         <!-- Flechas slide 1 -->
         <div class="control s1">
-            <label for="slide3" class="prev">&#10094;</label>
-            <label for="slide2" class="next">&#10095;</label>
+            <label for="slide3" class="prev">↩</label>
+            <label for="slide2" class="next">↪</label>
         </div>
 
         <!-- Flechas slide 2 -->
         <div class="control s2">
-            <label for="slide1" class="prev">&#10094;</label>
-            <label for="slide3" class="next">&#10095;</label>
+            <label for="slide1" class="prev">↩</label>
+            <label for="slide3" class="next">↪</label>
         </div>
 
         <!-- Flechas slide 3 -->
         <div class="control s3">
-            <label for="slide2" class="prev">&#10094;</label>
-            <label for="slide1" class="next">&#10095;</label>
+            <label for="slide2" class="prev">↩</label>
+            <label for="slide1" class="next">↪</label>
         </div>
     </div>
 
 </section>
-
 <!-- ================= PORTFOLIO ================= -->
 <section class="portfolio">
 

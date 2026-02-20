@@ -515,7 +515,7 @@ footer::before {
 /* ================= CAJA LOGIN ================= */
 
 .formulario-login {
-    background: white;
+    background: gray;
     padding: 40px;
     width: 380px;
     border-radius: 12px;
