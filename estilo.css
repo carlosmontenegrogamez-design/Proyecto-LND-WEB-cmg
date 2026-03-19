@@ -879,3 +879,50 @@ footer::before {
 }
 
 
+/*javascript funciones para el proyecto estilo/*
+
+/* ===== GALERÍA INTERACTIVA ===== */
+
+/* ===== GALERÍA INTERACTIVA ===== */
+
+.galeriaInteractiva {
+    width: 100%;
+    margin: 50px auto;
+    text-align: center;
+}
+
+/* TÍTULO */
+.galeriaInteractiva h3 {
+    margin-bottom: 20px;
+    font-size: 22px;
+}
+
+/* IMAGEN PRINCIPAL */
+#mainImage {
+    display: block;
+    margin: 0 auto 20px auto;
+    width: 300px;
+    border: 2px solid #ccc;
+    border-radius: 8px;
+}
+
+/* CONTENEDOR MINIATURAS EN FILA */
+.galeriaInteractiva .miniaturas {
+    display: flex;
+    justify-content: center; /* centra la fila */
+    gap: 10px;
+}
+
+/* MINIATURAS */
+.galeriaInteractiva .miniaturas img {
+    width: 90px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    transition: 0.3s;
+}
+
+/* HOVER */
+.galeriaInteractiva .miniaturas img:hover {
+    border: 2px solid orange;
+    transform: scale(1.1);
+}
