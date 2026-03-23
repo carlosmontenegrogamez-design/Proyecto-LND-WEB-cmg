@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+  
+  <channel>
+
+    <title>CARLIM WORLD</title>
+    <link>http://localhost/lnd/index.html</link>
+    <description>Ofertas y productos online</description>
+
+    <item>
+      <title>Auriculares Xiaomi</title>
+      <description>Precio: 19,85€</description>
+      <link>http://127.0.0.1:5500/lnd/index.html</link>
+      <enclosure url="http://127.0.0.1:5500/img/t3.png" length="78645" type="image/png"/>
+    </item>
+
+    <item>
+      <title>Estantería hogar</title>
+      <description>Precio: 49,65€</description>
+      <link>http://127.0.0.1:5500/lnd/index.html</link>
+      <enclosure url="http://127.0.0.1:5500/img/h5.png" length="78645" type="image/png"/>
+    </item>
+
+  </channel>
+
+  </rss>
